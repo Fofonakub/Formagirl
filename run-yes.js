@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         moveRandom();
 
         // จากนั้นเรียกซ้ำทุกๆ 555 มิลลิวินาที
-        setInterval(moveRandom, 555); // ปรับความเร็วได้
+        setInterval(moveRandom, 739); // ปรับความเร็วได้
 
         // คุณเคยมี event listener ที่ทำให้ปุ่ม No เคลื่อนที่เมื่อ hover
         // ถ้าต้องการปุ่ม Yes เคลื่อนที่เมื่อเมาส์ชี้ด้วย ก็เพิ่มตรงนี้
