@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She is mine </title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+     <img class="sticker" src="https://media.tenor.com/3B6JjKRS3ZUAAAAi/cute-melody.gif" alt="sticker">
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <h1 class="rainbow-text" id="typing-output-container"></h1>
+        <div id="full-text-lines" style="display:none;">
+            <p>อันนิ้หน้าสุดท้ายจิงแนะ</p>
+            <p>เบบี๋พร้อมอ้ะยาง</p>
+            <p>อ่ะๆๆๆๆๆ</p>
+            <p>ไหนกดตุ่มมมมม</p>
+        </div>
+      <div class="btn">
+      <a href="letter.html"> 💌</a>
+      </div>
+
+
+</body>
+<script>
+  setInterval(() => {
+    let heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
+    document.body.appendChild(heart);
+
+    setTimeout(() => { heart.remove(); }, 5000);
+  }, 300);
+</script>
+ <script src="script.js"></script>
+   <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // เรียกใช้ฟังก์ชัน Typing Effect โดยกำหนด id ของ output และ input text
+            initializeTypingEffect("no-page-output", "no-page-texts", 80, 1200); // สามารถปรับความเร็ว/ดีเลย์ได้
+        });
+    </script>
+
+</html>
